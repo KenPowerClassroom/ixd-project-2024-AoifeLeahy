@@ -11,9 +11,9 @@ h1,h2,h3,p,
 article,footer,header,main,section{
     padding: 20 px;
     margin-top: 5px;
-    margin-left: 360px;
+    margin-left: 30%;
     width: 75%;
-    font-family: 'Sans-serif';
+    font-family: 'San-serif';
     display: inline-block;
 }
 
@@ -42,10 +42,32 @@ li{
 
 a{
     padding: 15px;
-    border: 10px solid rgb(184, 178, 178);
+    border: 10px solid rgb(255, 255, 255);
     border-left: 0px;
     color: #000000;
     text-align: center;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(152, 146, 146);
     text-decoration: none;
 }
+
+table{
+    color: black;
+    margin-left: 32%;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.table_heading{
+    text-align: center;
+}
+
+th{
+    border: 1 px solid black;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+    width: 15%;
+}
+
