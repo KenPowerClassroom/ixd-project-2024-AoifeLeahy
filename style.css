@@ -5,6 +5,7 @@
 body{
     display: inline-flexbox;
     margin-top: 70px;
+    
 }
 
 h1,h2,h3,p,
@@ -37,7 +38,7 @@ ul{
 li{
     display: grid;
     font-size: 25px;
-    font-variant: small-caps;
+    font-family: sans-serif;
 }
 
 a{
@@ -46,7 +47,7 @@ a{
     border-left: 0px;
     color: #000000;
     text-align: center;
-    background-color: rgb(152, 146, 146);
+    background-color: rgb(185, 178, 178);
     text-decoration: none;
 }
 
@@ -55,10 +56,19 @@ table{
     margin-left: 32%;
     border: 1px solid black;
     width: 60%;
+    font-family: sans-serif;
 }
 
-.table_heading{
+.table_heading1{
     text-align: center;
+    height: 50px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.table_heading2{
+    text-align: center;
+    font-family: sans-serif;
 }
 
 th{
@@ -70,4 +80,17 @@ td{
     border: 1px solid black;
     width: 15%;
 }
+
+.answer{
+    background-color: rgb(127, 232, 127, 0.765)
+}
+
+.answer2{
+   background-color: rgb(247, 247, 156); 
+}
+
+.Question,.answer{
+    vertical-align: top;
+}
+
 
