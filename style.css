@@ -20,6 +20,7 @@ article,footer,header,main,section{
 
 h1{
     font-size: 40px;
+    font-family:serif;
 }
 
 h2{
@@ -93,4 +94,7 @@ td{
     vertical-align: top;
 }
 
-
+img {
+    padding-left: 30%;
+    
+}
